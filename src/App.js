@@ -4,7 +4,7 @@ import Footer from "./Components/Share/Footer";
 
 const App = () => {
   return (
-    <div className="flex min-h-screen flex-col justify-between">
+    <div className="flex max-w-screen-2xl mx-auto min-h-screen flex-col justify-between">
       <Navbar />
       <Outlet />
       <Footer />

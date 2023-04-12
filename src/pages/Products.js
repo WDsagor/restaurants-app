@@ -15,7 +15,7 @@ const Products = () => {
     <div>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row">
-          <div>
+          <div className="">
             <h1 className="text-2xl font-normal py-2">Catagories</h1>
             <select className="select select-bordered select-xs w-full max-w-xs">
               {catagories?.map((category, i) => (
